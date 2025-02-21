@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Mini Project001 - Services</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bayon&family=Chenla&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Odor+Mean+Chey&family=Rubik:ital,wght@0,300..900;1,300..900&family=Smooch+Sans:wght@100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./styles/output.css">
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.1/dist/flowbite.min.js"></script>
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+</head>
+
+<body>
+<!-- HEADER -->
+<header class="max-w-[1600px]">
+  <!-- NAVBAR -->
+  <nav class="bg-white border-gray-200 dark:bg-white-900">
+    <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
+      <!-- LEFT NAVBAR -->
+      <a href="#home" id="home" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <svg class="size-7" width="40" height="34" viewBox="0 0 40 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_1_4914)">
+            <path
+              d="M18.0941 33.3331C14.8632 33.3331 11.7049 32.375 9.01852 30.58C6.33213 28.785 4.23834 26.2338 3.00194 23.2488C1.76553 20.2638 1.44203 16.9793 2.07235 13.8105C2.70266 10.6417 4.25848 7.73094 6.54307 5.44636C8.82765 3.16177 11.7384 1.60595 14.9072 0.975636C18.076 0.345321 21.3606 0.668821 24.3455 1.90523C27.3305 3.14164 29.8817 5.23542 31.6767 7.92181C33.4717 10.6082 34.4298 13.7665 34.4298 16.9974C34.425 21.3284 32.7024 25.4807 29.6399 28.5432C26.5774 31.6057 22.4251 33.3283 18.0941 33.3331Z"
+              fill="#83CD20" />
+            <path
+              d="M18.0941 32.3375C21.1281 32.3375 24.094 31.4378 26.6166 29.7522C29.1393 28.0666 31.1054 25.6708 32.2665 22.8678C33.4276 20.0648 33.7313 16.9804 33.1394 14.0047C32.5475 11.029 31.0865 8.2957 28.9412 6.15036C26.7958 4.00501 24.0625 2.54401 21.0868 1.95211C18.1111 1.36021 15.0268 1.664 12.2237 2.82505C9.42072 3.9861 7.02493 5.95228 5.33934 8.47494C3.65375 10.9976 2.75407 13.9634 2.75407 16.9974C2.75886 21.0644 4.37659 24.9634 7.25237 27.8392C10.1281 30.715 14.0272 32.3327 18.0941 32.3375Z"
+              fill="white" />
+            <path
+              d="M38.2726 11.2022C38.014 11.1065 37.3261 10.2945 34.2358 10.5531C33.2015 10.6411 30.2043 11.5875 26.4158 12.7693L17.5459 9.19033L14.872 9.47478L22.0016 14.1477C19.5319 14.9079 16.933 15.6811 14.4272 16.3535L9.21128 12.7331L7.76572 13.1262L12.1826 18.7688L10.9077 21.4117L12.7567 21.1919L13.9824 19.4205C17.4593 19.3095 20.9202 18.8986 24.3264 18.1921L22.5937 25.1743L24.7841 24.233L28.1769 17.3569C38.8648 14.8019 39.7854 12.8469 39.9871 12.3013C40.2043 11.6806 38.5338 11.3005 38.2726 11.2022Z"
+              fill="#83CD20" />
+            <path d="M4.25136 27.9904L22.0067 24.7579L22.3429 22.8107L4.25136 27.9904Z" fill="#83CD20" />
+            <path d="M2.22653 25.2596L22.692 21.1815L23.1058 19.1076L2.22653 25.2596Z" fill="#83CD20" />
+            <path d="M10.5482 20.5893L1.02664 22.5495L11.1456 19.4024L10.5482 20.5893Z" fill="#83CD20" />
+            <path d="M10.6077 17.7758L0.437027 20.0592L9.88363 16.9535L10.6077 17.7758Z" fill="#83CD20" />
+            <path d="M9.04577 15.482L0 17.5715L8.3217 14.6571L9.04577 15.482Z" fill="#83CD20" />
+          </g>
+          <defs>
+            <clipPath id="clip0_1_4914">
+              <rect width="40" height="32.6713" fill="white" transform="translate(0 0.664337)" />
+            </clipPath>
+          </defs>
+        </svg>
+
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-green-900">RouteX</span>
+      </a>
+
+      <!-- MIDDLE NAVBAR -->
+      <div class="hidden sm:ml-6 sm:block">
+        <div class="flex space-x-4">
+          <a href="./index.html" id="home"
+            class="flex rounded-md px-3 py-2 text-sm font-medium text-green-900 hover:bg-[#83CD20] hover:text-white"
+            aria-current="page">HOME
+            <svg class="self-center ml-2" width="9" height="5" viewBox="0 0 9 5" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M4.25 4.75C4.07422 4.75 3.91797 4.69141 3.80078 4.57422L0.675781 1.44922C0.421875 1.21484 0.421875 0.804688 0.675781 0.570312C0.910156 0.316406 1.32031 0.316406 1.55469 0.570312L4.25 3.24609L6.92578 0.570312C7.16016 0.316406 7.57031 0.316406 7.80469 0.570312C8.05859 0.804688 8.05859 1.21484 7.80469 1.44922L4.67969 4.57422C4.5625 4.69141 4.40625 4.75 4.25 4.75Z"
+                fill="#034833" />
+            </svg>
+          </a>
+          <a href="./aboutus.html"
+            class="flex rounded-md px-3 py-2 text-sm font-medium text-green-900 hover:bg-[#83CD20] hover:text-white">ABOUT
+            US
+            <svg class="self-center ml-2" width="9" height="5" viewBox="0 0 9 5" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M4.25 4.75C4.07422 4.75 3.91797 4.69141 3.80078 4.57422L0.675781 1.44922C0.421875 1.21484 0.421875 0.804688 0.675781 0.570312C0.910156 0.316406 1.32031 0.316406 1.55469 0.570312L4.25 3.24609L6.92578 0.570312C7.16016 0.316406 7.57031 0.316406 7.80469 0.570312C8.05859 0.804688 8.05859 1.21484 7.80469 1.44922L4.67969 4.57422C4.5625 4.69141 4.40625 4.75 4.25 4.75Z"
+                fill="#034833" />
+            </svg></a>
+          <a href="#services"
+            class="flex rounded-md px-3 py-2 text-sm font-medium text-green-900 hover:bg-[#83CD20] hover:text-white">SERVICES
+            <svg class="self-center ml-2" width="9" height="5" viewBox="0 0 9 5" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M4.25 4.75C4.07422 4.75 3.91797 4.69141 3.80078 4.57422L0.675781 1.44922C0.421875 1.21484 0.421875 0.804688 0.675781 0.570312C0.910156 0.316406 1.32031 0.316406 1.55469 0.570312L4.25 3.24609L6.92578 0.570312C7.16016 0.316406 7.57031 0.316406 7.80469 0.570312C8.05859 0.804688 8.05859 1.21484 7.80469 1.44922L4.67969 4.57422C4.5625 4.69141 4.40625 4.75 4.25 4.75Z"
+                fill="#034833" />
+            </svg></a>
+
+          <a href="#projects"
+            class="flex rounded-md px-3 py-2 text-sm font-medium text-green-900 hover:bg-[#83CD20] hover:text-white">PROJECTS
+            <svg class="self-center ml-2" width="9" height="5" viewBox="0 0 9 5" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M4.25 4.75C4.07422 4.75 3.91797 4.69141 3.80078 4.57422L0.675781 1.44922C0.421875 1.21484 0.421875 0.804688 0.675781 0.570312C0.910156 0.316406 1.32031 0.316406 1.55469 0.570312L4.25 3.24609L6.92578 0.570312C7.16016 0.316406 7.57031 0.316406 7.80469 0.570312C8.05859 0.804688 8.05859 1.21484 7.80469 1.44922L4.67969 4.57422C4.5625 4.69141 4.40625 4.75 4.25 4.75Z"
+                fill="#034833" />
+            </svg></a>
+          <a href="./aboutus.html"
+            class="flex rounded-md px-3 py-2 text-sm font-medium text-green-900 hover:bg-[#83CD20] hover:text-white">BLOG
+            <svg class="self-center ml-2" width="9" height="5" viewBox="0 0 9 5" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M4.25 4.75C4.07422 4.75 3.91797 4.69141 3.80078 4.57422L0.675781 1.44922C0.421875 1.21484 0.421875 0.804688 0.675781 0.570312C0.910156 0.316406 1.32031 0.316406 1.55469 0.570312L4.25 3.24609L6.92578 0.570312C7.16016 0.316406 7.57031 0.316406 7.80469 0.570312C8.05859 0.804688 8.05859 1.21484 7.80469 1.44922L4.67969 4.57422C4.5625 4.69141 4.40625 4.75 4.25 4.75Z"
+                fill="#034833" />
+            </svg></a>
+          <a href="#page"
+            class="flex rounded-md px-3 py-2 text-sm font-medium text-green-900 hover:bg-[#83CD20] hover:text-white">PAGE
+            <svg class="self-center ml-2" width="9" height="5" viewBox="0 0 9 5" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M4.25 4.75C4.07422 4.75 3.91797 4.69141 3.80078 4.57422L0.675781 1.44922C0.421875 1.21484 0.421875 0.804688 0.675781 0.570312C0.910156 0.316406 1.32031 0.316406 1.55469 0.570312L4.25 3.24609L6.92578 0.570312C7.16016 0.316406 7.57031 0.316406 7.80469 0.570312C8.05859 0.804688 8.05859 1.21484 7.80469 1.44922L4.67969 4.57422C4.5625 4.69141 4.40625 4.75 4.25 4.75Z"
+                fill="#034833" />
+            </svg></a>
+          <a href="#contact"
+            class="flex rounded-md px-3 py-2 text-sm font-medium text-green-900 hover:bg-[#83CD20] hover:text-white">CONTACT
+            <svg class="self-center ml-2" width="9" height="5" viewBox="0 0 9 5" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M4.25 4.75C4.07422 4.75 3.91797 4.69141 3.80078 4.57422L0.675781 1.44922C0.421875 1.21484 0.421875 0.804688 0.675781 0.570312C0.910156 0.316406 1.32031 0.316406 1.55469 0.570312L4.25 3.24609L6.92578 0.570312C7.16016 0.316406 7.57031 0.316406 7.80469 0.570312C8.05859 0.804688 8.05859 1.21484 7.80469 1.44922L4.67969 4.57422C4.5625 4.69141 4.40625 4.75 4.25 4.75Z"
+                fill="#034833" />
+            </svg></a>
+
+        </div>
+      </div>
+
+      <!-- RIGHT NAVBAR -->
+      <div class="flex space-x-6 rtl:space-x-reverse pr-5">
+        <a href="#learnmore"
+          class="flex w-fit items-center justify-center px-5 py-3 text-base font-medium text-center text-white bg-[#83CD20] rounded-4xl hover:bg-yellow-800 focus:ring-4 focus:ring-[#83CD20] dark:focus:ring-[#83CD20]">
+          Get An Appointment
+          <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+            fill="none" viewBox="0 0 14 10">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M1 5h12m0 0L9 1m4 4L9 9" />
+          </svg>
+        </a>
+      </div>
+  </nav>
+</header>
+</body>
+</html>
